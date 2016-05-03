@@ -8,10 +8,8 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-
 // DB Setup
 mongoose.connect('mongodb://localhost:auth/auth');
-
 
 // App Setup
 
