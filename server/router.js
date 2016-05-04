@@ -13,5 +13,6 @@ module.exports = function(app) {
 	app.get('/', requireAuth, function(req, res) {
 		res.send({ hi: 'there' });
 	});
+	
 	app.post('/signup', Authentication.signup )
 }
